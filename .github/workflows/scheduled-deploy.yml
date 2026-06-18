@@ -3,7 +3,7 @@ name: Scheduled Cloudflare Pages Deploy
 on:
   schedule:
     # 每天 UTC 时间 00:00 触发
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
   # 允许手动触发
   workflow_dispatch:
 
